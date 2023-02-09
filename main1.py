@@ -5,6 +5,7 @@ import os
 
 dir = os.path.dirname(__file__)
 app = FastAPI()
+
 @app.get("/")
 async def root():
     return {'message': 'Hello World'}
