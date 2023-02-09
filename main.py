@@ -12,12 +12,3 @@ json_str = df.to_json(orient="records")
 with open("new.json", "w") as file:
    file.write(json_str)
 
-# Load the JSON file into a Python dictionary
-#with open("new.json", "r") as file:
- #   data = json.load(file)
-
-# Access the value for a specific key in the dictionary
-#column = data[2]
-
-#print(column)
-
